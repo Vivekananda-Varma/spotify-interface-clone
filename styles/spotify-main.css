@@ -1,0 +1,146 @@
+body {
+    margin: 0 ;
+    background-color: #101010;
+}
+
+header {    
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+}
+
+#spotify-logo {
+    display: inline-block;
+}
+
+#spotify-logo img {
+    margin-top: 15px;
+    margin-left: 12px;
+    height: 30px;
+}
+
+#search-icon {
+    display: inline-block;
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 50%;
+}
+
+#search-icon img {
+    height: 16px;
+}
+
+#hamburger-menu-icon {
+    display: inline-block;
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 60%;
+}
+
+#hamburger-menu-icon img {
+    height: 18px;
+}
+
+@font-face {
+    font-family: 'gotham-medium';
+    src: url(../fonts/GothamMedium.ttf);
+    font-weight: normal;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'gotham-medium';
+}
+
+.playlist-scroller {
+    display: grid;
+    gap: 2rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 35%;
+    overflow-x: auto;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+ }
+
+.album-container {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.album-cover {
+    height: 150px;
+    border-radius: 6px;
+}
+
+@font-face {
+    font-family: 'gotham-regular';
+    src: url(../fonts/GothamBook.ttf);
+    font-weight: normal;
+}
+
+.album-name {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'gotham-regular';
+    font-weight: 500;
+}
+
+h2 {
+    margin-top: 60px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'gotham-medium';
+    font-weight: 450;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #A7A7A7;
+    font-size: 16px;
+    font-family: 'gotham-regular';
+    font-weight: 600;
+}
+
+#social-media-icon-container {
+    margin: 60px 20px;
+}
+
+.social-media-icon {
+    margin-right: 15px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #242424;
+    height: 26px;
+}
+
+#copyright-info-container {
+    margin: 0 20px;
+    margin-bottom: 30px;
+    border-color: #5c5c5c;
+}
+
+h4 {
+    display: inline;
+    margin-right: 15px;
+    line-height: 30px;
+    color: #5c5c5c;
+    font-size: 14px;
+    font-family: 'gotham-regular';
+    font-weight: 600;
+}
+
+h5 {
+    display: block;
+    color: #5c5c5c;
+    font-size: 14px;
+    font-family: 'gotham-regular';
+    font-weight: 600;
+}
